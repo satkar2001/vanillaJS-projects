@@ -15,5 +15,10 @@ function getPosts(){
 }
 
 function createPost(post){
-
+ return new Promise(resolve,reject)=>{
+     setTimeout(()=>{
+         posts.push(post);
+         const error=false;
+     })
+ }
 }
