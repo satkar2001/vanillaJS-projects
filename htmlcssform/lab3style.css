@@ -1,0 +1,90 @@
+  /* .main{
+     margin-top:100px;
+   border: 2px solid red;
+   margin-left:450px;
+   margin-right: 450px;
+   border-radius: 15px;
+ }
+ .form{
+    padding: 40px 10px ;
+}
+.form-control{
+    margin-bottom: 10px;
+    padding-bottom:20px;
+    position:relative;
+} */
+/* .form-control label{
+    float: left;
+    color:#777;
+    padding:10px;
+    font-size:14px;
+    border: 2px solid green;
+    display: inline;
+} */
+
+.main{
+
+margin-top: 30px;
+
+}
+/* .col{
+    margin-top: 10px;
+} */
+/* .label{
+
+    float:left;
+    display: inline-flex
+} */
+.form{
+    border: 2px solid red;
+    border-radius: 15px;
+    width:500px;
+    height: 570px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+ label{
+     /* float:left; */
+     /* padding-left:10px; */
+     width:35%;
+     display: inline-block;
+     margin-top: 40px;
+     padding:10px;
+     font-size:14px;
+     /* border: 2px solid #3a3a3a; */
+}
+
+ select{
+    /* padding-right: 30px; */
+    /* width:58%; */
+    margin-top:10px;
+    float:right;
+     width:55%;
+     padding:10px;
+     border: 2px solid #3a3a3a;
+
+}
+
+ input{
+
+    /* float:right;
+    display: inline;
+    border: 2px solid #b4a9a9;
+    border-radius: 4px; */
+    /* width:300px; */
+    margin-top: 10px;
+    border: 2px solid #3a3a3a;
+    float:right;
+     width: 55%;
+    padding:10px;
+    font-size:14px;
+}
+button{
+    margin-top:10px;
+}
+textarea{
+    text-align: center;
+    margin-top:10px;
+}
