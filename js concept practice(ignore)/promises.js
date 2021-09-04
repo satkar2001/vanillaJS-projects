@@ -35,5 +35,7 @@ function createPost(post){
 
 const promise1=promise.resolve('hello world');
 const promise2=10;
-const promise3=
+const promise3=new Promise((resolve,reject)=>setTimeout(resolve,2000,'goodbye'));
+
+const
 
