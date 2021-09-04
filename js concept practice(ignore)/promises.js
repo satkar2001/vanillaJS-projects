@@ -29,6 +29,8 @@ function createPost(post){
  });
 }
 
-createPost({title:'post three',body:'this is post three'})
- .then(getPosts)
- .catch(err=>console.log(err));
+// createPost({title:'post three',body:'this is post three'})
+//  .then(getPosts)
+//  .catch(err=>console.log(err));
+
+const promise1=promise.resolve('hello world');
