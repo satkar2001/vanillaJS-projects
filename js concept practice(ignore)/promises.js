@@ -34,3 +34,6 @@ function createPost(post){
 //  .catch(err=>console.log(err));
 
 const promise1=promise.resolve('hello world');
+const promise2=10;
+const promise3=
+
