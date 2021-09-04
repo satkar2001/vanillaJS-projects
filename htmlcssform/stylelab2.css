@@ -1,0 +1,63 @@
+@font-face {
+    font-family: Delicious;
+    src: url('./Delicious-Italic.otf');
+
+}
+*{
+    font-family:Delicious;
+  }
+.main{
+    margin-top: 50px;
+}
+h3{
+    margin-bottom: 30px;
+}
+form{
+    border: 4px solid green;
+    border-radius: 15px;
+    width:450px;
+    padding:30px 10px;
+    background-color:#b4e1ff;
+}
+textarea{
+     margin-top: 10px;
+    width: 445px;
+    border: 2px solid green;
+}
+input{
+    float:right;
+    width:254px;
+    border: 2px solid green;
+     padding:3px ;
+}
+/* date{
+    width: 305px;
+    border: 3px solid;
+     border-color: green;
+} */
+label{
+    border: 2px solid green;
+    padding:3px ;
+    float:left;
+    width:36%;
+    text-align: end;
+    background-color:#b4e1ff;
+}
+select{
+    padding:3px;
+    float:right;
+    width:264px;
+    border: 2px solid green;
+
+
+}
+::-webkit-input-placeholder{
+    color:#b7b7b7;
+    font-size: larger;
+    font-weight: 1000;
+}
+button{
+    color:white;
+    background-color:#003300;
+    padding:8px 90px;
+}

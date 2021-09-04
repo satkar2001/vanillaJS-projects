@@ -28,3 +28,5 @@ function createPost(post){
      },2000);
  });
 }
+
+createPost({title:'post three',body:'this is post three'})
