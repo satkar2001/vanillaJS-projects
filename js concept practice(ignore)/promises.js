@@ -30,3 +30,5 @@ function createPost(post){
 }
 
 createPost({title:'post three',body:'this is post three'})
+ .then(getPosts)
+ .catch(err=>console.log(err));
