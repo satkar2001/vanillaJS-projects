@@ -1,0 +1,33 @@
+.box{
+
+    background-color: #555555;
+    width: 420px;
+    height: 250px;
+    border: 25px solid #222222;
+    padding: 25px;
+    margin-left: 420px;
+    margin-top: 140px;
+}
+form{
+    margin-top: 10px;
+    padding-left: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+label{
+    float:left;
+    color: white;
+}
+input{
+    position :absolute;
+    left:620px;
+}
+select{
+    position :absolute;
+    left:620px;
+    width: 175px;
+}
+button{
+    float:left;
+}
