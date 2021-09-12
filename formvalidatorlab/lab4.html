@@ -9,15 +9,15 @@
 <div class="box">
     <form action="">
         <label>Login&nbsp;</label>&nbsp;&nbsp;&nbsp;
-           <input type="text" name="Name" id="name" >
+           <input type="text" name="Name" id="name" required>
               <br>
               <br>
         <label>Password&nbsp;&nbsp;</label>&nbsp;&nbsp;&nbsp;
-           <input type="password" name="Email"  id="pass"  >
+           <input type="password" name="pass"  id="pass" required>&nbsp;&nbsp;&nbsp;&nbsp;<div id='pas'> </div>
               <br>
               <br>
        <label>Confirm Password&nbsp;</label>&nbsp;&nbsp;&nbsp;
-           <input type="password" name="CName" id="conpass" >
+           <input type="password" name="conpass" id="conpass"  required>
               <br>
               <br>
         <label>Gender&nbsp;</label>&nbsp;&nbsp;&nbsp;
@@ -29,10 +29,15 @@
               <br>
               <br>
         <label>Email&nbsp;</label>&nbsp;&nbsp;&nbsp;
-          <input type="text" name="CCode" id="email" >
+          <input type="text" name="email" id="email" required>
               <br>
               <br>
-         <button  id="button">Submit</button>
+         <button  id="button">Register</button>
+         <br>
+          <br>
+         <p id='nm'></p>
+          <br>
+         <p id='em'></p>
     </form>
 </div>
 <script src="script.js"></script>
