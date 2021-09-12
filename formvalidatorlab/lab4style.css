@@ -2,7 +2,7 @@
 
     background-color: #555555;
     width: 420px;
-    height: 250px;
+    height: 270px;
     border: 25px solid #222222;
     padding: 25px;
     margin-left: 420px;
@@ -14,10 +14,15 @@ form{
     align-content: center;
     text-align: center;
 }
+#pas{
+    color:#cbd0ce;
+}
 
 label{
-    float:left;
-    color: white;
+
+    color: #cbd0ce;
+    position:absolute;
+     left:485px;
 }
 input{
     position :absolute;
@@ -27,7 +32,22 @@ select{
     position :absolute;
     left:620px;
     width: 175px;
+
+}
+p{
+    position:absolute;
+     left:481px;
+     color:#edede9;
+
+}
+#pas{
+    position:absolute;
+    left:811px;
+    display: inline-block;
 }
 button{
     float:left;
+    background-color: #f0f0f0;
+    height:35px;
+    width:80px;
 }
