@@ -1,0 +1,30 @@
+
+* {
+    text-align: center;
+
+}
+body{
+    background-image: url("pic1.jpg");
+    background-size: cover;
+}
+#h11{
+    margin-top: 150px;
+    color:#007f08;
+}
+#h12{
+    color:#0303f5;
+}
+h2{
+    color:#0303f5;
+}
+
+table{
+        background-color: #ffffff;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px solid black;
+}
+th{
+    background-color:#bfbfbf;
+}
+
